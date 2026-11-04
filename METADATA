@@ -1,0 +1,28 @@
+name: "cpufeatures"
+description: "Lightweight runtime CPU feature detection for aarch64, loongarch64, and x86/x86_64 targets, with no_std support and support for mobile targets including Android and iOS"
+third_party {
+  version: "0.2.17"
+  license_type: NOTICE
+  last_upgrade_date {
+    year: 2026
+    month: 11
+    day: 4
+  }
+  homepage: "https://crates.io/crates/cpufeatures"
+  identifier {
+    type: "crates.io"
+    value: "cpufeatures"
+    version: "0.2.17"
+    primary_source: true
+  }
+  identifier {
+    type: "Archive"
+    value: "https://static.crates.io/crates/cpufeatures/cpufeatures-0.2.17.crate"
+    version: "0.2.17"
+  }
+  identifier {
+    type: "Git"
+    value: "https://github.com/RustCrypto/utils"
+    version: "9d92d5e95ab4c07c5d8bfd024bf2a17e96d20feb"
+  }
+}
